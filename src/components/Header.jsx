@@ -10,7 +10,8 @@ const Header = () => {
             <div className="col-lg-2">
               <div className="header__logo">
                 <Link to="/">
-                  <img src="img/logo.png" alt="Logo" />
+                  {/* <img src="img/logo.png" alt="Logo" /> */}
+                  <h4 style={{ color: "white" }}>CraftedByAbhi</h4>
                 </Link>
               </div>
             </div>
@@ -54,13 +55,13 @@ const Header = () => {
                 </nav>
                 <div className="header__nav__social">
                   <a href="https://www.facebook.com">
-                    <i className="fa fa-facebook"></i>
+                    <i className="fa fa-github"></i>
                   </a>
                   <a href="https://www.twitter.com">
                     <i className="fa fa-twitter"></i>
                   </a>
                   <a href="https://www.dribbble.com">
-                    <i className="fa fa-dribbble"></i>
+                    <i className="fa fa-linkedin"></i>
                   </a>
                   <a href="https://www.instagram.com">
                     <i className="fa fa-instagram"></i>

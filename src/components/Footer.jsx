@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6">
               <div className="footer__top__logo">
                 <Link to="/">
-                  <img src="img/logo.png" alt="Logo" />
+                  <h4 style={{ color: "white" }}>CraftedByAbhi</h4>
                 </Link>
               </div>
             </div>

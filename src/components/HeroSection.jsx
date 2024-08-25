@@ -3,10 +3,10 @@ import OwlCarousel from "react-owl-carousel";
 const HeroSection = () => {
   const heroItems = [
     {
-      text: "For website and video editing",
-      title: "Videographer’s Portfolio",
-      img: "img/vector-may-2021-42.jpg",
-      link: "/about", // Change this to the appropriate route in your app
+      text: "For website development, IoT projects, robotics, and electronics",
+      title: "Developer’s Portfolio",
+      img: "img/vector-may-2021-42.jpg", // Update this image to something more relevant if needed
+      link: "/developer", // Change this to the appropriate route in your app
     },
   ];
 
